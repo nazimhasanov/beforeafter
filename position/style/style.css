@@ -1,0 +1,66 @@
+.header {
+    display: inline-block;
+    position: relative;
+    padding-bottom: 5px;
+   /* NOT : hocam align center niye tetbiq olunmadi ?   */
+    text-align: center;  
+    margin-left: 520px;
+    margin-bottom: 70px;
+
+}
+
+
+
+
+
+.header::after{
+    content: "";
+    background-color: grey;
+    width: 100px ;
+    height: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 35%;
+
+
+
+
+}
+
+
+
+.header:before{
+    content: "";
+    background-color: green;
+    width: 30px;
+    height: 4px;
+    left: 143px;
+    top: 88%;
+    position: absolute;
+    z-index: 1;
+
+}
+
+.text{
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px ;
+    margin-bottom: 50px;
+}
+
+
+.secondsection {
+    text-align: center;
+    display: inline-block;
+      
+     
+}
+
+/* .pic-2{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    display: block;
+    margin-bottom: 10px;
+
+} */
